@@ -15,12 +15,12 @@
   background-color: bisque;
   width: 200px;
   height: 200px;
+  display: inline-block;
 }
 .userFullInfo {
   background-color: blanchedalmond;
   width: 200px;
   height: 200px;
+  display: inline-block;
   position: absolute;
-  left: 200px;
-  bottom: 121px;
 }
