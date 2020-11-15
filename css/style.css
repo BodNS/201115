@@ -1,0 +1,38 @@
+* {
+  margin: 10px;
+}
+article {
+  font-size: 14;
+  font-family: "Courier New", Courier, monospace;
+  background-color: bisque;
+}
+p {
+  color: green;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+li {
+  color: cornflowerblue;
+}
+.li1 {
+  color: blue;
+}
+#li2 {
+  color: brown;
+  background-color: aquamarine;
+  margin-left: 20px;
+}
+ul {
+  background-color: antiquewhite;
+  border: 5px solid;
+  border-color: black;
+  margin-top: 50px;
+}
+p > span > span {
+  background-color: blue;
+}
+p > span {
+  background-color: white;
+}
