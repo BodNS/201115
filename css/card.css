@@ -16,7 +16,7 @@ body {
   overflow: hidden;
   border-radius: 5%;
 }
-.userCard * {
+.userCard > * {
   display: inline-block;
   vertical-align: top;
 }
