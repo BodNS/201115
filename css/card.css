@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgreen;
+}
+.userCard {
+  background-color: beige;
+  /*width: 300px;*/
+  min-width: 220px;
+  max-width: 400px;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 5%;
+}
+.userCard * {
+  display: inline-block;
+  vertical-align: top;
+}
+.userImage {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.userImage img {
+  /*width: 100px;
+  height: 100px;*/
+  border-radius: 50%;
+  border: 1 px solid white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: inherit;
+  height: inherit;
+}
+.userInfoCont {
+  padding: 20 px;
+  height: 150 px;
+}
+.userStatContainer {
+  display: inline-block;
+}

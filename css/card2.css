@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.userFoto img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1 px solid white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.userFotoAndFollowers {
+  background-color: bisque;
+  width: 200px;
+  height: 200px;
+}
+.userFullInfo {
+  background-color: blanchedalmond;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 200px;
+  bottom: 121px;
+}

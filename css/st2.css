@@ -1,0 +1,31 @@
+/*.box {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  background-color: brown;
+}
+*/
+body {
+  color: #000500;
+  font-size: larger;
+}
+#ban {
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-position: right top;
+  opacity: 0.9;
+  text-align: center;
+  border: 1px solid gray;
+}
+#ban p {
+  font-size: 20px;
+  color: blue;
+}
+#ban div > p {
+  color: black;
+}
+a:hover {
+  background-color: red;
+  color: black;
+}
